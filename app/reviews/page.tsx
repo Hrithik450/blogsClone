@@ -25,150 +25,150 @@ export interface ReviewCardProps {
   author?: AuthorProps;
 }
 
-const ReviewCardsData1: ReviewCardProps[] = [
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/NVoqwIxYHlWIv5lB9AHNyJEHNQY.png",
-    reviewText:
-      "When I first walked into my new bakery, I was speechless. The design team turned my vague dream into a reality that’s better than anything I imagined. From the rustic charm of the woodwork to the natural light streaming through the thoughtfully placed windows, every detail is perfection. I’ve had customers tell me they come back not just for the bread but for the warm, inviting atmosphere the space creates.",
-    reviewTitle: "...better than anything I imagined....",
-    reviewedFrom: "Google Review",
-    author: {
-      authorImage:
-        "https://framerusercontent.com/images/av1QC6j9JKqHwxIdiUEol7OCdkA.jpg",
-      authName: "Oliver Dempsey",
-      authorRole: "Artisan Baker from Portland",
+const ReviewCardData = [
+  [
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/NVoqwIxYHlWIv5lB9AHNyJEHNQY.png",
+      reviewText:
+        "When I first walked into my new bakery, I was speechless. The design team turned my vague dream into a reality that’s better than anything I imagined. From the rustic charm of the woodwork to the natural light streaming through the thoughtfully placed windows, every detail is perfection. I’ve had customers tell me they come back not just for the bread but for the warm, inviting atmosphere the space creates.",
+      reviewTitle: "...better than anything I imagined....",
+      reviewedFrom: "Google Review",
+      author: {
+        authorImage:
+          "https://framerusercontent.com/images/av1QC6j9JKqHwxIdiUEol7OCdkA.jpg",
+        authName: "Oliver Dempsey",
+        authorRole: "Artisan Baker from Portland",
+      },
     },
-  },
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/lnxcVcW2ZAXOVrfFLrpdshZkg.png",
-    reviewText:
-      "The team didn’t just build a café for me; they crafted a community hub. From the exposed brick walls that scream Brooklyn charm to the layout that encourages mingling, it’s everything I envisioned and more. Customers often comment on how cozy yet modern the space feels, and that’s entirely thanks to the genius design work. If I had to sum it up, I’d say they don’t just create spaces—they create experiences!",
-    reviewTitle: "...they crafted a community hub...",
-    reviewedFrom: "Live Review",
-    author: {
-      authName: "Wyatt Kingsley",
-      authorRole: "Coffee Roaster from Brooklyn",
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/lnxcVcW2ZAXOVrfFLrpdshZkg.png",
+      reviewText:
+        "The team didn’t just build a café for me; they crafted a community hub. From the exposed brick walls that scream Brooklyn charm to the layout that encourages mingling, it’s everything I envisioned and more. Customers often comment on how cozy yet modern the space feels, and that’s entirely thanks to the genius design work. If I had to sum it up, I’d say they don’t just create spaces—they create experiences!",
+      reviewTitle: "...they crafted a community hub...",
+      reviewedFrom: "Live Review",
+      author: {
+        authName: "Wyatt Kingsley",
+        authorRole: "Coffee Roaster from Brooklyn",
+      },
     },
-  },
-  {
-    reviewText:
-      "The retail store design completely transformed my business. The space is visually stunning, and it’s designed to guide customers effortlessly through every section. The layout has increased foot traffic and sales, and I’m thrilled to say my customers now stay longer and shop more. It’s a game-changer!",
-    reviewTitle: "...my customers now stay longer and shop more...",
-    reviewedFrom: "Google Review",
-    author: {
-      authName: "Levi Morgan",
-      authorRole: "Retailer in Denver",
+    {
+      reviewText:
+        "The retail store design completely transformed my business. The space is visually stunning, and it’s designed to guide customers effortlessly through every section. The layout has increased foot traffic and sales, and I’m thrilled to say my customers now stay longer and shop more. It’s a game-changer!",
+      reviewTitle: "...my customers now stay longer and shop more...",
+      reviewedFrom: "Google Review",
+      author: {
+        authName: "Levi Morgan",
+        authorRole: "Retailer in Denver",
+      },
     },
-  },
-  {
-    imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
-    videoUrl:
-      "https://www.youtube.com/embed/y0__MG9RdZY?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
-    author: {
-      authName: "Levi Morgan",
-      authorRole: "Retailer in Denver",
+    {
+      imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
+      videoUrl:
+        "https://www.youtube.com/embed/y0__MG9RdZY?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
+      author: {
+        authName: "Levi Morgan",
+        authorRole: "Retailer in Denver",
+      },
     },
-  },
-];
-
-const ReviewCardsData2: ReviewCardProps[] = [
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/jYW9wJIJ6gCfJ3QugzwOC71R71s.png",
-    reviewText:
-      "My studio is now my favorite place on Earth, thanks to these talented designers. They took my scattered ideas and turned them into a cohesive space where creativity flows effortlessly. The use of natural light is insane—I barely even need my artificial lights for shoots anymore",
-    reviewTitle: "...they gave me a sanctuary...",
-    reviewedFrom: "Facebook Review",
-    author: {
-      authName: "Silas Hoffman",
-      authorRole: "Photographer in San Francisco",
+  ],
+  [
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/jYW9wJIJ6gCfJ3QugzwOC71R71s.png",
+      reviewText:
+        "My studio is now my favorite place on Earth, thanks to these talented designers. They took my scattered ideas and turned them into a cohesive space where creativity flows effortlessly. The use of natural light is insane—I barely even need my artificial lights for shoots anymore",
+      reviewTitle: "...they gave me a sanctuary...",
+      reviewedFrom: "Facebook Review",
+      author: {
+        authName: "Silas Hoffman",
+        authorRole: "Photographer in San Francisco",
+      },
     },
-  },
-  {
-    imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
-    videoUrl:
-      "https://www.youtube.com/embed/ay2e0VXtmfI?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
-    author: {
-      authName: "Monroe Silas",
-      authorRole: "New York",
+    {
+      imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
+      videoUrl:
+        "https://www.youtube.com/embed/ay2e0VXtmfI?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
+      author: {
+        authName: "Monroe Silas",
+        authorRole: "New York",
+      },
     },
-  },
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/eQ5qtGxvLv67diHaAGJJwAeYY.png",
-    reviewText:
-      "I wanted a home that matched my personality: sleek, modern, and functional. These folks delivered that and more! My condo now feels like a tech haven with an elegant edge. The built-in smart home features, clean lines, and clever use of space blew me away.",
-    reviewTitle: "...My condo now feels like a tech haven...",
-    reviewedFrom: "Google Review",
-    author: {
-      authorImage:
-        "https://framerusercontent.com/images/WibJvDexl2V7QNsNBntaEODZia4.jpg",
-      authName: "Finn Gallagher",
-      authorRole: "Software Developer in Austin",
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/eQ5qtGxvLv67diHaAGJJwAeYY.png",
+      reviewText:
+        "I wanted a home that matched my personality: sleek, modern, and functional. These folks delivered that and more! My condo now feels like a tech haven with an elegant edge. The built-in smart home features, clean lines, and clever use of space blew me away.",
+      reviewTitle: "...My condo now feels like a tech haven...",
+      reviewedFrom: "Google Review",
+      author: {
+        authorImage:
+          "https://framerusercontent.com/images/WibJvDexl2V7QNsNBntaEODZia4.jpg",
+        authName: "Finn Gallagher",
+        authorRole: "Software Developer in Austin",
+      },
     },
-  },
-  {
-    reviewedFrom: "Google Review",
-    reviewTitle: "...they redefined how education can happen...",
-    reviewText:
-      "Our school’s renovation was handled with such care and thoughtfulness. The team created classrooms and communal spaces that are bright, functional, and inspiring for students and teachers alike. The kids especially love the outdoor learning areas they designed. They didn’t just redesign our school; they redefined how education can happen.",
-    author: {
-      authName: "Rowan Blake",
-      authorRole: "Educator in Seattle",
+    {
+      reviewedFrom: "Google Review",
+      reviewTitle: "...they redefined how education can happen...",
+      reviewText:
+        "Our school’s renovation was handled with such care and thoughtfulness. The team created classrooms and communal spaces that are bright, functional, and inspiring for students and teachers alike. The kids especially love the outdoor learning areas they designed. They didn’t just redesign our school; they redefined how education can happen.",
+      author: {
+        authName: "Rowan Blake",
+        authorRole: "Educator in Seattle",
+      },
     },
-  },
-];
-
-const ReviewCardsData3: ReviewCardProps[] = [
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/RnwN2nxCdb2btj9P1RfjNOsF9o.png",
-    reviewText:
-      "The office space they designed for my startup is nothing short of amazing. It’s vibrant, collaborative, and inspiring—exactly the kind of environment where ideas come to life. Every detail, from the breakout areas to the ergonomic workstations, shows that they really understood what we needed.",
-    reviewTitle: "...It’s vibrant, collaborative, and inspiring...",
-    reviewedFrom: "Live Review",
-    author: {
-      authorImage:
-        "https://framerusercontent.com/images/HdWbXwJUEXkxOiqujyNbrF0JJM.jpg",
-      authName: "Caleb Sutton",
-      authorRole: "Entrepreneur in Chicago",
+  ],
+  [
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/RnwN2nxCdb2btj9P1RfjNOsF9o.png",
+      reviewText:
+        "The office space they designed for my startup is nothing short of amazing. It’s vibrant, collaborative, and inspiring—exactly the kind of environment where ideas come to life. Every detail, from the breakout areas to the ergonomic workstations, shows that they really understood what we needed.",
+      reviewTitle: "...It’s vibrant, collaborative, and inspiring...",
+      reviewedFrom: "Live Review",
+      author: {
+        authorImage:
+          "https://framerusercontent.com/images/HdWbXwJUEXkxOiqujyNbrF0JJM.jpg",
+        authName: "Caleb Sutton",
+        authorRole: "Entrepreneur in Chicago",
+      },
     },
-  },
-  {
-    imageUrl:
-      "https://framerusercontent.com/images/dzcnUH2a76D6MDAM9feu1DOjYuA.png",
-    reviewedFrom: "Google Review",
-    reviewText:
-      "I needed a hotel design that felt luxurious but still approachable, and they absolutely nailed it. Each room has its own personality while maintaining an overall theme of coastal elegance. Guests constantly rave about how the space feels like a slice of paradise, and bookings have skyrocketed since the redesign. This team didn’t just create a hotel—they created an experience that guests will remember forever.",
-    reviewTitle: "...the space feels like a slice of paradise...",
-    author: {
-      authorImage:
-        "https://framerusercontent.com/images/H8M8jsYOxH0mI2AipDXmdFsO3ec.jpg?scale-down-to=512",
-      authName: "Monroe Silas",
-      authorRole: "New York",
+    {
+      imageUrl:
+        "https://framerusercontent.com/images/dzcnUH2a76D6MDAM9feu1DOjYuA.png",
+      reviewedFrom: "Google Review",
+      reviewText:
+        "I needed a hotel design that felt luxurious but still approachable, and they absolutely nailed it. Each room has its own personality while maintaining an overall theme of coastal elegance. Guests constantly rave about how the space feels like a slice of paradise, and bookings have skyrocketed since the redesign. This team didn’t just create a hotel—they created an experience that guests will remember forever.",
+      reviewTitle: "...the space feels like a slice of paradise...",
+      author: {
+        authorImage:
+          "https://framerusercontent.com/images/H8M8jsYOxH0mI2AipDXmdFsO3ec.jpg?scale-down-to=512",
+        authName: "Monroe Silas",
+        authorRole: "New York",
+      },
     },
-  },
-  {
-    imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
-    videoUrl:
-      "https://www.youtube.com/embed/KY_ESjGm6ow?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
-    author: {
-      authName: "Hoffman F.",
-      authorRole: "Owner, Miami Resort",
+    {
+      imageUrl: "https://i.ytimg.com/vi_webp/ay2e0VXtmfI/sddefault.webp",
+      videoUrl:
+        "https://www.youtube.com/embed/KY_ESjGm6ow?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=0&amp;color=white",
+      author: {
+        authName: "Hoffman F.",
+        authorRole: "Owner, Miami Resort",
+      },
     },
-  },
-  {
-    reviewedFrom: "Google Review",
-    reviewTitle: "...they come for the vibe....",
-    reviewText:
-      "I wanted my restaurant to feel like an extension of myself—modern, inviting, and a little edgy. The design team captured that perfectly. From the moody lighting to the seamless blend of industrial and cozy touches, the space has become a local favorite. Customers don’t just come for the food; they come for the vibe.",
-    author: {
-      authName: "Theo Hartman",
-      authorRole: "Restaurateur in Dallas",
+    {
+      reviewedFrom: "Google Review",
+      reviewTitle: "...they come for the vibe....",
+      reviewText:
+        "I wanted my restaurant to feel like an extension of myself—modern, inviting, and a little edgy. The design team captured that perfectly. From the moody lighting to the seamless blend of industrial and cozy touches, the space has become a local favorite. Customers don’t just come for the food; they come for the vibe.",
+      author: {
+        authName: "Theo Hartman",
+        authorRole: "Restaurateur in Dallas",
+      },
     },
-  },
+  ],
 ];
 
 export const ReviewCard: React.FC<ReviewCardProps> = ({
@@ -314,45 +314,24 @@ export default function Reviews() {
         </h1>
 
         <div className="flex flex-col lg:flex-row justify-between items-start gap-4 mt-10">
-          <div className="flex-1 flex flex-col gap-4">
-            {ReviewCardsData1.map((review, index) => (
-              <ReviewCard
-                key={`data1-${index}`}
-                imageUrl={review.imageUrl}
-                videoUrl={review.videoUrl}
-                reviewText={review.reviewText}
-                reviewTitle={review.reviewTitle}
-                reviewedFrom={review.reviewedFrom}
-                author={review.author}
-              />
-            ))}
-          </div>
-          <div className="flex-1 flex flex-col gap-4">
-            {ReviewCardsData2.map((review, index) => (
-              <ReviewCard
-                key={`data2-${index}`}
-                imageUrl={review.imageUrl}
-                videoUrl={review.videoUrl}
-                reviewText={review.reviewText}
-                reviewTitle={review.reviewTitle}
-                reviewedFrom={review.reviewedFrom}
-                author={review.author}
-              />
-            ))}
-          </div>
-          <div className="flex-1 flex flex-col gap-4">
-            {ReviewCardsData3.map((review, index) => (
-              <ReviewCard
-                key={`data3-${index}`}
-                imageUrl={review.imageUrl}
-                videoUrl={review.videoUrl}
-                reviewText={review.reviewText}
-                reviewTitle={review.reviewTitle}
-                reviewedFrom={review.reviewedFrom}
-                author={review.author}
-              />
-            ))}
-          </div>
+          {ReviewCardData.map((section, index) => (
+            <div
+              className="flex-1 flex flex-col gap-4"
+              key={`section-${index}`}
+            >
+              {section.map((review, index) => (
+                <ReviewCard
+                  key={`data-${index}`}
+                  imageUrl={review.imageUrl}
+                  videoUrl={review.videoUrl}
+                  reviewText={review.reviewText}
+                  reviewTitle={review.reviewTitle}
+                  reviewedFrom={review.reviewedFrom}
+                  author={review.author}
+                />
+              ))}
+            </div>
+          ))}
         </div>
       </div>
     </section>
