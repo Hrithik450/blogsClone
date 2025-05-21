@@ -67,7 +67,7 @@ const articles: Article[] = [
   {
     id: 6,
     image:
-      "https://framerusercontent.com/images/5bchTkoNu02pNVTPU87gLYTDyic.pngg",
+      "https://framerusercontent.com/images/5bchTkoNu02pNVTPU87gLYTDyic.png",
     date: "SEP 24, 2024",
     categories: ["INDUSTRY INSIGHTS"],
     author: { name: "JAMES MILLER", avatar: "/images/james.jpg" },
@@ -117,8 +117,8 @@ export default function Articles() {
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className={cn(
-            "group relative overflow-hidden border-none shadow-none bg-transparent gap-0 cursor-pointer",
-            position.showButton ? "cursor-pointer" : ""
+            "group relative overflow-hidden border-none shadow-none bg-transparent gap-0",
+            position.showButton ? "cursor-wait" : "cursor-pointer"
           )}
         >
           <div className="overflow-hidden rounded-sm">
@@ -139,7 +139,9 @@ export default function Articles() {
                 transform: "translate(-50%, -50%)",
               }}
             >
-              <button className="min-w-[max-content] bg-orange-500 text-black px-3 py-2 font-bold rounded-md flex items-center gap-2 opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-75 text-sm sm:text-base">
+              <button
+                className="min-w-[max-content] bg-orange-500 text-black px-3 py-2 font-bold rounded-md flex items-center gap-2 opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-75 text-sm sm:text-base cursor-wait" // Added cursor-wait
+              >
                 <div className="flex items-center gap-2 overflow-hidden">
                   <p className="whitespace-nowrap animate-[widthGrow_0.7s_ease-in-out_forwards] text-gray-800">
                     Read Blog
